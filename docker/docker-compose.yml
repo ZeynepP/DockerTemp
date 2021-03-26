@@ -1,5 +1,5 @@
 version: '3.7'
-# TO DO before first execution : docker network create -d bridge --subnet=192.168.0.0/24 otm
+
 networks:
   default:
     external:
@@ -8,7 +8,7 @@ networks:
 services:
   zpehlivan-temp:
     build:
-      context: .
+      context: ..
       network: host
     image: "xxx/temp-docker-ts:2.3.2"
     dns :

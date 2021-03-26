@@ -1,0 +1,7 @@
+{
+
+  "params":  "Everyone",
+  "script": "/usr/src/temp/hello.py",
+  "logging": "/usr/src/temp/logging.ini"
+
+}
