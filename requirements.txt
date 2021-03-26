@@ -1,0 +1,8 @@
+pandas
+h5py
+scikit-learn
+networkx
+tsfresh
+matplotlib
+scipy
+elasticsearch
